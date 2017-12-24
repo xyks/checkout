@@ -11,6 +11,7 @@
 ### HOW-TO RUN
 + 导入checkout文件夹下面的checkout-db.sql初始化数据库 
 + 修改checkout/checkout-web-app/src/main/resources/application.yml中的数据库配置
++ 配置sencha cmd
 + 在checkout件文件夹下执行
  ```sh
        mvn clean install
