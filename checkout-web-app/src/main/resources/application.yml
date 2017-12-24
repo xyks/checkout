@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: checkout-web-app
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/checkout
+    username: root
+    password: just_for_test
+
+server:
+  port: 9001
+  
+token:
+  key: just_for_test  
+  
