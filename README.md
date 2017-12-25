@@ -16,10 +16,10 @@
 + 评分功能（打分和评论）
 
 ### 技术栈
-+ 前台：Extjs 6
-+ 后台：JDK8, Spring boot, Spring Data, Spring Security, JJWT, Lombok
-+ 数据库：Mysql
-+ CI: git, maven, jenkins, nginx, docker
++ 前台：Ext JS 6
++ 后台：Java 8、Spring Boot、Spring Data、Spring Security、JJWT、Lombok
++ 数据库：MySQL
++ CI: git、maven、jenkins、nginx、docker、tomcat
 
 ### HOW-TO RUN
 + 导入checkout文件夹下面的checkout-db.sql初始化数据库 
